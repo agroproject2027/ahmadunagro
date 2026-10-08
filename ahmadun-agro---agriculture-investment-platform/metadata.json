@@ -1,6 +1,0 @@
-{
-  "name": "Ahmadun Agro - Agriculture Investment Platform",
-  "description": "Bilingual (Bangla & English) agriculture investment platform for Ahmadun Agro featuring public website, admin portal, and investor portal.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
