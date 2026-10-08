@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary-dark: #0F4420;
+    --color-primary: #1B5A2B;
+    --color-gold: #E5A823;
+    --color-gold-light: #F2C94C;
+    --color-cream: #FBFAF4;
+    --color-cream-card: #FFFFFF;
+    --color-text-main: #1B2420;
+    --color-text-muted: #5C6660;
+    --color-border: #E4E7E1;
+    --color-chip-green: #E3EFD5;
+    --color-chip-warning: #F3EAD0;
+    --color-chip-warning-text: #6B5116;
+  }
+
+  .dark {
+    --color-primary-dark: #061A0C;
+    --color-primary: #0F381B;
+    --color-gold: #E5A823;
+    --color-gold-light: #F2C94C;
+    --color-cream: #0B1910;
+    --color-cream-card: #122419;
+    --color-text-main: #EAF0EC;
+    --color-text-muted: #95A69B;
+    --color-border: #1E3827;
+    --color-chip-green: #1B3F24;
+    --color-chip-warning: #382D13;
+    --color-chip-warning-text: #F2C94C;
+  }
+
+  body {
+    font-family: 'Manrope', 'Noto Sans Bengali', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--color-cream);
+    color: var(--color-text-main);
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, .font-display, .font-serif-brand {
+    font-family: 'Newsreader', 'Noto Serif Bengali', Georgia, serif;
+  }
+}
+
+/* Custom utility classes */
+.bg-cream {
+  background-color: var(--color-cream);
+}
+
+.bg-cream-card {
+  background-color: var(--color-cream-card);
+}
+
+.border-agro {
+  border-color: var(--color-border);
+}
+
+.text-agro-main {
+  color: var(--color-text-main);
+}
+
+.text-agro-muted {
+  color: var(--color-text-muted);
+}
+
+.card-agro {
+  background-color: var(--color-cream-card);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+}
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(229, 168, 35, 0.35);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 68, 32, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 68, 32, 0.4);
+}
